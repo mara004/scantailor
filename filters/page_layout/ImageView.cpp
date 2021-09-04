@@ -42,6 +42,7 @@
 #include <algorithm>
 #include <math.h>
 #include <assert.h>
+#include <QPainterPath>
 
 using namespace imageproc;
 

@@ -39,6 +39,7 @@
 #include <boost/ref.hpp>
 #include <vector>
 #include <assert.h>
+#include <QPainterPath>
 
 class ZoneContextMenuInteraction::OrderByArea
 {

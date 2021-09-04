@@ -35,6 +35,7 @@
 #include <QDomDocument>
 #include <QDomElement>
 #include <memory>
+#include <QButtonGroup>
 
 #include "CommandLine.h"
 #include "ImageViewTab.h"
@@ -91,7 +92,7 @@ Filter::saveSettings(
 	
 	QDomElement filter_el(doc.createElement("output"));
 	writer.enumPages(
-		bind(
+		boost::lambda::bind(
 			&Filter::writePageSettings,
 			this, boost::ref(doc), var(filter_el), _1, _2
 		)

@@ -117,7 +117,7 @@ Filter::saveSettings(
 	
 	QDomElement filter_el(doc.createElement("select-content"));
 	writer.enumPages(
-		bind(
+		boost::lambda::bind(
 			&Filter::writePageSettings,
 			this, boost::ref(doc), var(filter_el), _1, _2
 		)

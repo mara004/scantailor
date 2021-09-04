@@ -22,6 +22,7 @@
 #include "QtSignalForwarder.h"
 #include <boost/function.hpp>
 #include <boost/lambda/lambda.hpp>
+#include <QButtonGroup>
 
 namespace output
 {

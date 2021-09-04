@@ -85,6 +85,7 @@
 #include <assert.h>
 #include <string.h>
 #include <stdint.h>
+#include <QPainterPath>
 
 using namespace imageproc;
 using namespace dewarping;
