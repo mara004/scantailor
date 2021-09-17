@@ -103,10 +103,10 @@ public:
 	Mat operator-() const;
 
 	T const* rawData() const { return data; }
-private:
 	Mat(AbstractAllocator<T>* alloc, T const* data, int rows, int cols)
 		: alloc(alloc), data(data), rows(rows), cols(cols) {}
 
+private:
 	AbstractAllocator<T>* alloc;
 	T const* data;
 	int rows;
