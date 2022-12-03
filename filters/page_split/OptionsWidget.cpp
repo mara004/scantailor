@@ -26,6 +26,7 @@
 #include "ProjectPages.h"
 #include "ScopedIncDec.h"
 #include <QPixmap>
+#include <QButtonGroup>
 #include <boost/foreach.hpp>
 #include <assert.h>
 
